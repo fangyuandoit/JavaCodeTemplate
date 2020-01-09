@@ -1,6 +1,5 @@
 package utils;
 
-import static plm.common.utils.StringUtil.isEmpty;
 
 import javax.annotation.PostConstruct;
 

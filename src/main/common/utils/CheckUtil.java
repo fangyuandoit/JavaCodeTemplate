@@ -1,8 +1,8 @@
 package utils;
 
+import exceptions.CheckException;
 import org.springframework.context.MessageSource;
 
-import plm.common.exceptions.CheckException;
 
 /**
  * 校验工具类

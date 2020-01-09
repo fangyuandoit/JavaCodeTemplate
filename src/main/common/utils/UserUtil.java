@@ -1,13 +1,13 @@
 package utils;
 
 import exceptions.UnloginException;
-import org.apache.log4j.MDC;
+import org.slf4j.MDC;
 
 import java.util.Locale;
 
 /**
  * 用户工具类
- * 
+ *
  * @author 晓风轻 https://xwjie.github.io/PLMCodeTemplate/
  *
  */
@@ -35,7 +35,7 @@ public class UserUtil {
 
   /**
    * 如果没有登录，返回null
-   * 
+   *
    * @return
    */
   public static String getUserIfLogin() {
@@ -44,7 +44,7 @@ public class UserUtil {
 
   /**
    * 如果没有登录会抛出异常
-   * 
+   *
    * @return
    */
   public static String getUser() {
